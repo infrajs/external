@@ -1,10 +1,10 @@
 {
-	"name": "infrajs/lexternal",
+	"name": "infrajs/layer-external",
 	"license": "GPL3",
 	"require":{
 		"infrajs/controller":"~1"
 	},
 	"autoload": {
-		"psr-4": { "infrajs\\lexternal\\": "/" }
+		"psr-4": { "infrajs\\layer\\external\\": "/" }
 	}
 }
