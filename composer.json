@@ -1,5 +1,5 @@
 {
-	"name": "infrajs/layer-external",
+	"name": "infrajs/external",
 	"license": "GPL3",
 	"require":{
 		"infrajs/controller":"~1"
