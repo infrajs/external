@@ -1,0 +1,7 @@
+{
+	"name": "infrajs/layer-external",
+	"license": "GPL3",
+	"autoload": {
+		"psr-4": { "infrajs\\layer-external\\": "/" }
+	}
+}
