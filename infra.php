@@ -1,9 +1,10 @@
 <?php
 namespace infrajs\external;
-use infrajs\Event;
+use infrajs\event\Event;
+use infrajs\path\Path;
+
+Path::req('*controller/infra.php');
 
 Event::listeng('layer.oninit', function (&$layer) {
-	//external
 	External::check($layer);
-	Event::fire($layer, 'layer.oninit.external');
 });
