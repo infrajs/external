@@ -3,7 +3,9 @@ namespace infrajs\external;
 use infrajs\event\Event;
 use infrajs\path\Path;
 
-Path::req('*controller/infra.php');
+//isAdd('check' отфильтровываются нерабочие слои
+
+Path::reqif('*controller/infra.php');
 
 Event::listeng('layer.oninit', function (&$layer) {
 	External::check($layer);
